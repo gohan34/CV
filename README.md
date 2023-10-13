@@ -5,4 +5,16 @@ J'ai des competences en SISR
 ### Systéme 
 - Windows server
 - linux
-- ##dev
+### vitualisation
+-Virtualbox
+-VMWare
+### Réseau
+-Cisco Packet Tracer
+-Cisco Networking Essentials
+-Routage
+-DNS
+-DHCP
+-ARP
+-VoIP/ / Téléphonie sur IP
+### Systèmes embarqués
+-Arduino
