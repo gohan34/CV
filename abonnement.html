@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" class="h-100" data-bs-theme="auto">
+<html lang="fr" data-bs-theme="auto">
   <head><script src="assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
@@ -7,9 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Sticky Footer Navbar Template · Bootstrap v5.3</title>
+    <title>Signin Template · Bootstrap v5.3</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
 
     
 
@@ -98,9 +98,9 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="sticky-footer-navbar.css" rel="stylesheet">
+    <link href="sign-in.css" rel="stylesheet">
   </head>
-  <body class="d-flex flex-column h-100">
+  <body class="d-flex align-items-center py-4 bg-body-tertiary">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -153,57 +153,32 @@
     </div>
 
     
-<header>
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a href="acceuil.html" class="navbar-brand d-flex align-items-center">
-    <img class="mb-4" src="logo.PNG" alt="" width="72" height="57"></a>
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true"></a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+<main class="form-signin w-100 m-auto">
+  <form>
+    <a href="acceuil.html">
+    <img class="mb-4" src="logo.PNG" alt="" width="72" height="57">
+    </a>
+    <h1 class="h3 mb-3 fw-normal">connecté vous</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">address email</label>
     </div>
-  </nav>
-</header>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">mot de passe</label>
+    </div>
 
-<!-- Begin page content -->
-<main class="flex-shrink-0">
-  <div class="container">
-    <h1 class="mt-5">a propos de moi</h1>
-    <p class="lead">numero de telephone: 06 77 77 77 77 mails:juliette234@gmail.com  Je m'appelle juliette, une passionnée de la gastronomie et une étudiante entrepreneuse. J'ai toujours eu un amour profond pour la cuisine et l'art de créer des expériences gastronomiques uniques. C'est cette passion qui m'a inspirée à fonder les panier gourmand, une aventure culinaire où je mets en avant mes créations gourmandes.
-L'idée de lancer mon entreprise de paniers gourmands est née de mon désir de partager ma passion pour la bonne nourriture avec le monde. En tant qu'étudiante, j'ai été confrontée aux défis de l'équilibre entre mes études et ma vie professionnelle naissante. Cependant, j'ai toujours cru que la dégustation de mets délicieux peut apporter un peu de joie et de réconfort à n'importe quelle journée chargée. C'est ainsi que les panier gourmands de Juliette  est né, dans le but de faciliter l'accès à des produits gastronomiques de qualité pour les gourmets en herbe et les amateurs de saveurs raffinées.
-Chaque panier gourmand que je compose est le résultat d'une sélection minutieuse des meilleurs ingrédients et de ma passion pour la cuisine. J'accorde une grande importance à la qualité, à la fraîcheur et à la présentation de chaque produit que je propose. Mes paniers sont conçus pour éveiller vos papilles et vous faire découvrir de nouvelles saveurs exquises.
-En plus de mes études et de la gestion de les panier gourmand de juliette, j'aspire à promouvoir la culture de la gastronomie, à encourager la créativité en cuisine et à inspirer les autres à explorer le monde des délices culinaires. C'est ma façon de poursuivre ma passion et de partager le plaisir de la bonne nourriture avec vous.
-Je vous invite à explorer notre sélection de paniers gourmands et à vous laisser tenter par une expérience gustative unique. Chez les panier gourmand de juliette, je mets tout en œuvre pour vous offrir un voyage culinaire exceptionnel.
-Je vous remercie de votre intérêt pour les panier gourmand de juliette et de votre soutien continu. N'hésitez pas à me contacter si vous avez des questions ou des commentaires, car je suis toujours ravie de vous entendre.
-À votre santé et à une aventure gastronomique exceptionnelle !
-Bien cordialement,
-[juliette]<code class="small">.</p>
-   
-
-<footer class="footer mt-auto py-3 bg-body-tertiary">
-  <div class="container">
-    <span class="text-body-secondary">Place sticky footer content here.</span>
-  </div>
-</footer>
+    <div class="form-check text-start my-3">
+      <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        reter connecter
+      </label>
+    </div>
+    <button class="btn btn-primary w-100 py-2" type="submit">connexion</button>
+    <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2023</p>
+  </form>
+</main>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
     </body>
