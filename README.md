@@ -18,3 +18,11 @@ J'ai des competences en SISR
 -VoIP/ / Téléphonie sur IP
 ### Systèmes embarqués
 -Arduino
+### code
+-CSS
+-html
+-php
+-sql
+### certification 
+-pix
+-freecode camp
