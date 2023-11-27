@@ -6,23 +6,23 @@ J'ai des competences en SISR
 - Windows server
 - linux
 ### vitualisation
--Virtualbox
--VMWare
+- Virtualbox
+- VMWare
 ### Réseau
--Cisco Packet Tracer
--Cisco Networking Essentials
--Routage
--DNS
--DHCP
--ARP
--VoIP/ / Téléphonie sur IP
+- Cisco Packet Tracer
+- Cisco Networking Essentials
+- Routage
+- DNS
+- DHCP
+- ARP
+- VoIP/ / Téléphonie sur IP
 ### Systèmes embarqués
--Arduino
+- Arduino
 ### code
--CSS
--html
--php
--sql
+- CSS
+- html
+- php
+- sql
 ### certification 
--pix
--freecode camp
+- pix
+- freecode camp
